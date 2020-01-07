@@ -1,0 +1,64 @@
+body
+{
+   min-height: 100vh;
+   font-family: sans-serif;
+   font-size: 0.875em;
+   background-image: -ms-linear-gradient(bottom, #F6F6F6 75%, #FFFFFF 100%); /* IE10+ */
+   background-image: -moz-linear-gradient(bottom, #F6F6F6 75%, #FFFFFF 100%); /* Mozilla Firefox */
+   background-image: -o-linear-gradient(bottom, #F6F6F6 75%, #FFFFFF 100%); /* Opera */
+   background-image: -webkit-gradient(linear, left bottom, left top, color-stop(75, #F6F6F6), color-stop(100, #FFFFFF)); /* Webkit (Safari/Chrome 10) */
+   background-image: -webkit-linear-gradient(bottom, #F6F6F6 75%, #FFFFFF 100%); /* Webkit (Chrome 11+) */
+   background-image: linear-gradient(to top, #F6F6F6 75%, #FFFFFF 100%); /* W3C Markup */
+}
+
+section
+{
+   margin-left: 11em;
+   padding: 1.25em 1.5em 1.5em 1.5em;
+   border: 1px solid #a7d7f9;
+   background-color: #ffffff;
+   color: #222222;
+}
+
+a
+{
+   text-decoration: none;
+   color: #0645ad;
+}
+
+a:hover
+{
+   text-decoration: underline;
+}
+
+#navigation
+{
+   position: absolute;
+   top: 0px;
+   width: 10em;
+   left: 0px;
+   padding-left: 1em;
+}
+
+#navigation a img
+{
+    width: 135px;
+    height: 135px;
+    display: block;
+    margin: 0 0;
+}
+
+#navigation ul
+{
+   font-size: 11px;
+   list-style: none;
+   padding: 0px;
+}
+
+#recherche
+{
+   text-align: right;
+   margin-left: auto;
+   margin-right: 0;
+   padding: 2em 0 0.5em 0.2em;
+}

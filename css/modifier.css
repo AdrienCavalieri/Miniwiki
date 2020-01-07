@@ -1,0 +1,14 @@
+#formulaire-ajout input[type="text"]
+{
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#formulaire-ajout textarea
+{
+  width: 100%;
+  height: 400px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

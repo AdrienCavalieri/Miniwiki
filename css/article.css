@@ -1,0 +1,22 @@
+.article h1
+{
+   border-bottom: 1px #aaa solid;
+   margin: -0.4rem 0 0.5rem;
+   font-size: 1.5em;
+   font-family: 'Times', serif;
+   font-weight: normal;
+}
+
+.article #conteneur-boutons
+{
+   text-align: right;
+}
+
+.bouton
+{
+    width: 18px;
+    height: 18px;
+    display: inline;
+    margin-right: 3px;
+    margin-left: 3px;
+}
